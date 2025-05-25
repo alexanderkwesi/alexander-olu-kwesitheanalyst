@@ -1,0 +1,11 @@
+{
+  "name": "My Data Analyst Porfolio",
+  "main": "alexander-olu-kwesitheanalyst.html",
+  "scripts": {
+    "start": "open alexander-olu-kwesitheanalyst.html"
+  },
+  "dependencies": {
+    "open":"^10.1.2"
+  }
+
+}

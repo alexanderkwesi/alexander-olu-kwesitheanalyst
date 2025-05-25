@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Olu Kwesi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    @keyframes flowDown {
+      0% {
+        transform: translateY(-100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    
+    .flow-down {
+      animation: flowDown 1.2s ease-out forwards;
+    }
+    
+    .flow-down-delay {
+      animation: flowDown 1.2s ease-out 0.3s forwards;
+      opacity: 0;
+    }
+    
+    .flow-down-delay-2 {
+      animation: flowDown 1.2s ease-out 0.6s forwards;
+      opacity: 0;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+  <!-- Name Section -->
+  <div class="h-[790px] relative z-10 flex flex-col items-center justify-center text-center text-black py-12 overflow-hidden">
+    <div class="absolute inset-0 w-full h-full bg-gradient-to-b from-pink-500 via-yellow-500 to-white-500  -z-3"></div>
+    <h1 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg flow-down">Alexander Olu Kwesi</h1>
+    <h1 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg flow-down-delay">Portfolio</h1>
+    <p class="text-xl md:text-2xl max-w-2xl text-gray-700 flow-down-delay-2">Turning data into insights | Tableau, Excel, SQL, Power BI, Python @alexander-olu-kwesitheanalyst</p>
+ 
+
+    <!-- Scroll Arrow Button -->
+    <a id="scroll_arrow_btn" href="#next-section" class="block mx-auto mt-10 w-12 h-12 rounded-full bg-blue-900 text-white flex items-center justify-center animate-bounce hover:bg-blue-800 transition duration-300 smooth-scroll">
+        <!-- Down Arrow Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+    </a>
+
+</div>
+
+<section class="inherit z-20 w-full flex flex-row align-center justify-center">
+<div class="flex flex-wrap justify-center gap-4 p-6 bg-gray-50 h-1/2">
+    <!-- Row 1 -->
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center ">Unrivaled</div>
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">Precision</div>
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">World-Class</div>
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">Results</div>
+  
+    <!-- Row 2 -->
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">Cutting-Edge</div>
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">Innovation</div>
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">Meets Standards</div>
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">Relentless</div>
+    <div class="bg-white text-black px-4 py-2 rounded shadow w-[300px] h-[250px] text-2xl font-semibold mb-2 text-center flex flex-col align-center justify-center">Detail in Quality.</div>
+  </div>
+</section>
+
+
+<!-- Heading Visuals Section -->
+<section id="next-section" class="w-full h-[200px] flex flex-row align-center justify-center pt-8">
+    <h1 class="text-4xl font-semibold mb-2 text-center text-black pt-8">Personalised Sample Project Visuals</h1>
+</section>
+
+  <!-- Hero Section with Slideshow -->
+  <section class="mt-[1px] w-full h-[750px] relative flex items-center justify-center">
+    <div class="w-[1300px] h-[750px] z-10 relative">
+      <div class="swiper h-full">
+        <div class="swiper-wrapper h-full">
+          <div class="swiper-slide h-full">
+            <img src="./pic_1.png" class="w-full h-full fit-content" alt="Dashboard 1">
+          </div>
+          <div class="swiper-slide h-full">
+            <img src="./pic_2.png" class="w-full h-full fit-content" alt="Dashboard 2">
+          </div>
+          <div class="swiper-slide h-full">
+            <img src="./pic_3.png" class="w-full h-full fit-content" alt="Dashboard 3">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="inherit z-1 flex jusitfy-end w-[700px] h-[750px] mx-2">
+      <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon points="0,0 100,0 100,100" fill="#001f3f" />
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- Heading Technical Skills and Project Links -->
+
+  <section class="w-full h-[200px] flex flex-row align-center justify-center bg-gray-100 pt-8">
+  <h1 class="text-4xl font-semibold mb-2 text-center text-black pt-8">Technical Strengths and Project Links</h1>
+  </section>
+
+
+  <!-- Portfolio Gallery -->
+  <div class="h-[300px] bg-gray-100 py-11 px-6 flex flex-row align-center justify-center">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      
+      <!-- Skill Card - Tableau -->
+      <div class="bg-white border border-gray-300 p-6 text-center">
+        <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" alt="Tableau Logo" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-4">Tableau</h3>
+        <a href="https://github.com/alexanderkwesi/-alexander-olu-kwesitheanalyst/blob/main/Tableau" class="inline-block bg-gray-900 text-white px-6 py-2 text-sm hover:bg-yellow-400 hover:text-black transition-all duration-300">
+          View Projects
+        </a>
+      </div>
+  
+      <!-- Skill Card - Excel -->
+      <div class="bg-white border border-gray-300 p-6 text-center">
+        <img src="https://cdn.worldvectorlogo.com/logos/microsoft-excel-2013.svg" alt="Excel Logo" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-4">Excel</h3>
+        <a href="#excel-projects" class="inline-block bg-gray-900 text-white px-6 py-2 text-sm hover:bg-yellow-400 hover:text-black transition-all duration-300">
+          View Projects
+        </a>
+      </div>
+  
+      <!-- Skill Card - SQL -->
+      <div class="bg-white border border-gray-300 p-6 text-center">
+        <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="SQL Logo" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-4">SQL</h3>
+        <a href="https://github.com/alexanderkwesi/-alexander-olu-kwesitheanalyst/blob/main/SQL" class="inline-block bg-gray-900 text-white px-6 py-2 text-sm hover:bg-yellow-400 hover:text-black transition-all duration-300">
+          View Projects
+        </a>
+      </div>
+  
+      <!-- Skill Card - Power BI -->
+      <div class="bg-white border border-gray-300 p-6 text-center">
+        <img src="https://cdn.worldvectorlogo.com/logos/power-bi.svg" alt="Power BI Logo" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-4">Power BI</h3>
+        <a href="https://github.com/alexanderkwesi/-alexander-olu-kwesitheanalyst/blob/main/Power BI" class="inline-block bg-gray-900 text-white px-6 py-2 text-sm hover:bg-yellow-400 hover:text-black transition-all duration-300">
+          View Projects
+        </a>
+      </div>
+  
+      <!-- Skill Card - Python -->
+      <div class="bg-white border border-gray-300 p-6 text-center">
+        <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python Logo" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-4">Python</h3>
+        <a href="https://github.com/alexanderkwesi/-alexander-olu-kwesitheanalyst/blob/main/Python" class="inline-block bg-gray-900 text-white px-6 py-2 text-sm hover:bg-yellow-400 hover:text-black transition-all duration-300">
+          View Projects
+        </a>
+      </div>
+  
+    </div>
+  </div>
+  
+
+  <!-- Contact Section -->
+  <div class="min-h-screen flex items-center justify-center px-4 bg-gradient-to-t from-pink-500 via-yellow-500 to-white-500  -z-3">
+    <div class="bg-white p-12 max-w-2xl w-full text-center border border-gray-300">
+      <h2 class="text-4xl font-bold text-gray-800 mb-6">Contact Information</h2>
+  
+      <div class="space-y-4 text-gray-700 text-left text-lg">
+        <div class="flex items-center gap-3">
+          <span class="font-semibold">📞 Phone:</span>
+          <span>+44 7477 115523</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="font-semibold">📧 Email:</span>
+          <a href="mailto:alexander.o.kwesi@gmail.com" class="text-blue-600 hover:underline">alexander.o.kwesi@gmail.com</a>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="font-semibold">🔗 LinkedIn:</span>
+          <a href="https://www.linkedin.com/in/alexanderoluwaseunkwesi" target="_blank" class="text-blue-600 hover:underline">
+            /in/alexanderoluwaseunkwesi
+          </a>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="font-semibold">📍 Address:</span>
+          <span>Warrington, WA4 2NG</span>
+        </div>
+      </div>
+  
+      <!-- Let's Connect Section -->
+      <section class="pt-16">
+        <div class="text-center">
+          <h2 class="text-3xl font-extrabold mb-4 text-gray-800">Let's Connect</h2>
+          <p class="text-gray-600 mb-8 text-base">I'm always open to discussing data projects, collaborating, or new opportunities.</p>
+          <a href="mailto:alexander.o.kwesi@gmail.com" class="inline-block bg-gray-900 text-white px-10 py-5 text-lg font-medium hover:bg-yellow-400 hover:text-black transition-all duration-300">
+            Email Me
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center p-6">
+    <p>&copy; 2025 Alexander Olu Kwesi. All rights reserved.</p>
+  </footer>
+
+  <!-- SwiperJS for slideshow -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
+    });
+  </script>
+  <script>
+    document.getElementById("scroll_arrow_btn").addEventListener("click", function () {
+        document.getElementById("portfolio_gallery").scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    
+  </script>
+</body>
+
+</html>
